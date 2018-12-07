@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+  body {
+    background-image: url('./assets/wallpaper.jpg');
+    background-size: cover;
+  }
+
+  .bear {
+    animation: play .8s steps(4) infinite;
+    background: url('./assets/bear.png') left center;
+    border-radius: 50%;
+    height: 400px;
+    left: 0;
+    margin: 18% auto;
+    position: absolute;
+    right: 0;
+    width: 440px;
+  }
+
+  .border {
+    border: 12px solid #bb9a02;
+    border-radius: 50%;
+    height: 383px;
+    left: 0;
+    margin: 17% auto;
+    position: absolute;
+    right: 0;
+    width: 425px;
+  }
+
+  @keyframes play {
+    100% { background-position: -1773px; }
+  }
+</style>
+<body>
+    <div class="bear"></div>
+    <div class="border"></div>
+</body>
+</html>
